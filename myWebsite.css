@@ -1,0 +1,533 @@
+/*!
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/template-overviews/landing-page)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+
+body, html {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(226, 147, 132);
+}
+
+body, h2, h3, h4, h5, h6 {
+  /* font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+  font-family: 'Ibarra Real Nova', serif;
+  font-weight: 700;
+  padding-top: 50pt;
+
+}
+
+
+.intro-header {
+  padding-bottom: 0px;
+  text-align: center;
+  color: rgb(252, 240, 231);
+  background-color: rgb(226, 147, 132);
+  /* url(../img/rocks-small.jpeg) no-repeat center center; */
+  background-size:contain;
+  min-height: 10%;
+}
+
+.intro-message {
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  
+}
+
+.intro-message>h1 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  font-size: 5em;
+  
+}
+
+.intro-divider {
+  width: 400px;
+  border-top: 1px solid #f8f8f8;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-message>h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.intro-social-buttons i {
+  font-size: 80%;
+}
+
+@media(max-width:767px) {
+  .intro-message {
+    padding-bottom: 15%;
+  }
+  .intro-message>h1 {
+    font-size: 3em;
+  }
+  ul.intro-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.intro-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+  .intro-divider {
+    width: 100%;
+  }
+}
+
+.network-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content-section-a:not(#projects)  {
+  padding: 50px 0;
+  background-color: rgb(252, 240, 231);
+}
+
+#aboutme {
+  padding-right: 1px;
+}
+
+#education2 {
+  padding-top: 1px;
+  background-color: rgb(255, 255, 255);
+}
+
+#education3 {
+  padding-top: 14px;
+  background-color: rgb(255, 255, 255);
+}
+
+#education {
+  padding-top: 50px;
+  background-color: rgb(255, 255, 255);
+}
+
+#summer {
+  background-color: rgb(255, 255, 255);
+  margin-top: -40px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+#experience, #extracurriculars {
+  padding-top: 50px;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  background-color: rgb(255, 255, 255);
+}
+
+.content-section-b:not(#education):not(#experience):not(#summer):not(#extracurriculars):not(#education2):not(#education3) {
+  padding: 50px 0;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+#projects{
+  padding-top: 50px;
+  background-color: rgb(252, 240, 231);
+}
+
+.section-heading {
+  margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+  float: left;
+  width: 200px;
+  border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+  padding: 100px 0;
+  background-color: rgb(226, 147, 132);
+  /*background: url(../img/water.jpg) no-repeat center center; */
+  background-size: cover;
+}
+
+.banner h2 {
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 3em;
+}
+
+.banner ul {
+  margin-bottom: 0;
+}
+
+.banner-social-buttons {
+  float: right;
+  margin-top: 0;
+}
+
+@media(max-width:1199px) {
+  ul.banner-social-buttons {
+    float: left;
+    margin-top: 15px;
+  }
+
+  .img-right {
+    display: none;
+  }
+}
+
+@media(max-width:767px) {
+  .banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 3em;
+  }
+  ul.banner-social-buttons>li {
+    display: block;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+  ul.banner-social-buttons>li:last-child {
+    margin-bottom: 0;
+  }
+
+  .img-right {
+    display: none;
+  }
+}
+
+footer {
+  padding: 0px 0px;
+  background-color: rgb(226, 147, 132);
+}
+
+p.copyright {
+  margin: 0px 0 0;
+  text-align: center;
+}
+
+.img-apple {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+
+}
+
+.img-varsity-tutors {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 0%;
+    border: 0px solid #e7e7e7;
+}
+
+.img-eic {
+  
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 50px;
+
+}
+
+.img-umich1 {
+  
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 50px;
+
+}
+
+.img-umich2 {
+  
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 50px;
+
+}
+
+.bio-pic {
+  padding-bottom: 10px;
+}
+
+#education-text, #work-text, #projects-text {
+  padding-bottom: 50px;
+}
+
+#solar {
+  padding-top: 60px;
+}
+
+.list-inline-item {
+  padding-top:2px;
+  padding-bottom: 2px;
+}
+
+#word, #website, #sudoku, #solar, #mybook, #codewords {
+  font-size: 25px;
+}
+
+#word {
+  padding-top: 15px;
+}
+
+.img-mancala {
+    border-color: rgb(226, 147, 132);
+    border-width: 50px;
+    width: 200%;
+    max-width: 400px;
+    padding-bottom: 70px;
+    padding-right: 0px;
+   /* box-shadow: 10px 10px rgba(78, 78, 78, 0.195); */
+}
+
+.img-personal-website {
+  border-color: rgba(0, 0, 0, 0.837);
+  border-width: 50px;
+  width: 200%;
+  max-width: 400px;
+  padding-bottom: 70px;
+  padding-right: 0px;
+  /*box-shadow: 10px 10px rgba(78, 78, 78, 0.315); */
+}
+
+
+.img-website {
+  
+    width: 100%;
+    max-width: 200px;
+    padding-bottom: 50px;
+    padding-top: 0px;
+
+}
+
+
+#classes {
+  padding: 10px;
+  background-color: rgb(252, 240, 231);
+}
+
+.panel-clr.on, .panel-clr1.on, .panel-clr2.on, .panel-clr3.on, .panel-clr4.on, .panel-clr5.on, .panel-clr6.on, .panel-clr7.on {
+  background-color: rgb(252, 240, 231);
+  
+}
+
+.panel-clr, .panel-clr1, .panel-clr2, .panel-clr3, .panel-clr4, .panel-clr5, .panel-clr6, .panel-clr7 {
+  background-color: rgb(226, 147, 132);
+  
+}
+
+#highschool, #fall21, #winter22, #fall22 {
+  margin: 0;
+}
+
+.navbar {
+  position: fixed;
+
+}
+
+#nav ul li:hover a{ 
+  color:#FFF;
+}
+
+#connect-row {
+  padding-bottom: 100px;
+}
+
+#connect {
+  padding-bottom: 10px;
+}
+
+.footer-social {
+  text-align: center;
+}
+.footer-social li {
+  display: inline;
+}
+.footer-info {
+  text-align: center;
+}
+.footer-info li {
+  display: inline-block;
+}
+
+.btn {
+  background-color: rgba(252, 240, 231, 0.343);
+  color: rgb(255, 255, 255);
+  border: 0px;
+}
+
+.btn:hover {
+  background-color: rgb(252, 240, 231);
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*styling the image slider in the about me section*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: none;
+}
+
+/* forward & Back buttons */
+.Back, .forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 17px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a black background with some little opacity */
+.Back:hover, .forward:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable, .dots:hover {
+  background-color: #717161;
+}
+
+/* Faint animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.4s;
+  animation-name: fade;
+  animation-duration: 1.4s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 2}
+}
+
+carousel {
+  justify-content: center;
+  display: inline-block;
+}
+
+/* slideshow images formatting to center */
+.slideshow1 {
+  padding-left: 300px;
+}
+.slideshow2 {
+  padding-left: 300px;
+}
+.slideshow3 {
+  padding-left: 300px;
+}
+.slideshow4 {
+  padding-left: 300px;
+}
+.slideshow5 {
+  padding-left: 300px;
+}
+.slideshow6 {
+  padding-left: 300px;
+}
+.slideshow7 {
+  padding-left: 300px;
+}
+.slideshow8 {
+  padding-left: 300px;
+}
+.slideshow9 {
+  padding-left: 300px;
+}
+
+
+/* pop up text on coffee shops: */
+a.hideDisplay{
+  position: relative; 
+  /* layer overlapping elements. */
+  z-index: 20; 
+  color: #000;
+  text-decoration: none
+}
+
+a.hideDisplay:hover{
+  /* layer overlapping elements. */
+  z-index: 30; 
+}
+
+a.hideDisplay span.showDisplayOnHover{
+ display: none
+}
+
+/* will only display when user hovers the mouse over the img */
+ a.hideDisplay:hover span.showDisplayOnHover{ 
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  line-height: 25px;
+  top: 5px; 
+  left: 20px; 
+  width: 500px;
+  padding: 10px;
+  /* border: 1.5px solid #ffffff; */
+  border-radius: 15px;
+  box-shadow: #717161;
+  background-color: rgb(226, 147, 132); 
+   /* text color */
+  color: #ffffff;
+  text-align: left;
+ }
+
+ span.showBodyOfDisplayOnHover {
+  font-size: 14px; 
+  font-weight: 500px;
+  color: rgb(255, 255, 255);
+  line-height: 18px; 
+ }
+
+ .coffee {
+  width: 28px;
+  height: auto;
+ }
+
+ ol {
+  list-style-type: upper-roman;
+  font-size: 18px;
+  color:rgba(0, 0, 0, 0.726);
+  
+}
+
