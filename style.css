@@ -5,7 +5,7 @@
  */
 
 
-body, html {
+ body, html {
   width: 100%;
   height: 100%;
   background-color: rgb(226, 147, 132);
@@ -215,6 +215,14 @@ p.copyright {
 
 }
 
+.img-blk {
+  
+  width: 100%;
+  max-width: 200px;
+  padding-bottom: 50px;
+
+}
+
 .img-varsity-tutors {
     width: 100%;
     max-width: 200px;
@@ -317,7 +325,7 @@ p.copyright {
   
 }
 
-#highschool, #fall21, #winter22, #fall22, #winter23 {
+#highschool, #fall21, #winter22, #spring22, #fall22, #winter23, #fall23 {
   margin: 0;
 }
 
@@ -506,9 +514,9 @@ a.hideDisplay span.showDisplayOnHover{
   /* border: 1.5px solid #ffffff; */
   border-radius: 15px;
   box-shadow: #717161;
-  background-color: rgb(226, 147, 132); 
+  background-color: rgb(247, 239, 238); 
    /* text color */
-  color: #ffffff;
+  color: #000000;
   text-align: left;
  }
 
